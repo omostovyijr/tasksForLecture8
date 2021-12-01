@@ -8,10 +8,7 @@ ages["Vasia Pupkin"] = 20
 ages.pop("Vasia Pupkin")
 
 def keycheck(key):
-	if key in ages:
-		return True
-	else:
-		return False
+	return key in ages
 
 keycheck("Vasia Pupkin")
 keycheck("Marcus Aurelius")
