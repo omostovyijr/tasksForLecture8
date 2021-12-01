@@ -4,10 +4,7 @@ ages.append(16)
 ages.remove(20)
 
 def numcheck(key):
-	if key in ages:
-		return True
-	else:
-		return False
+	return key in ages
 
 print("10 :", numcheck(10))
 print("16 :", numcheck(16))
