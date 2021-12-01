@@ -10,8 +10,5 @@ ages.pop("Vasia Pupkin")
 def keycheck(key):
 	return key in ages
 
-keycheck("Vasia Pupkin")
-keycheck("Marcus Aurelius")
-
 print("Vasia Pupkin :", keycheck("Vasia Pupkin"))
 print("Marcus Aurelius :", keycheck("Marcus Aurelius"))
